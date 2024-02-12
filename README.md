@@ -33,7 +33,8 @@ In this example, the AutoViz method automatically analyzes the input DataFrame (
 
 
 
-https://github.com/bintangrizqikhairullah/Automated_Exploratory_Data_Analysis_in_Python_using_AutoViz/assets/101108509/5b357806-7d03-4a34-80cc-4dc25c74a5ba
+![Uploading artikel - Made with Clipchamp.gif…]()
+
 
 
 
