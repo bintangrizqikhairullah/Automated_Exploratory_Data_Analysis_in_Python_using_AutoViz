@@ -31,6 +31,12 @@ Once installed, you can import the AutoViz class and create visualizations with 
 
 In this example, the AutoViz method automatically analyzes the input DataFrame (df) and generates a suite of visualizations based on the data characteristics. The resulting charts are saved in the specified format (SVG by default) and can be further customized or exported for presentation or further analysis.
 
+
+
+https://github.com/bintangrizqikhairullah/Automated_Exploratory_Data_Analysis_in_Python_using_AutoViz/assets/101108509/5b357806-7d03-4a34-80cc-4dc25c74a5ba
+
+
+
 ## Conclusion
 
 AutoViz offers a compelling solution for data analysts and data scientists seeking to expedite the process of data visualization and exploration. By leveraging automation and machine learning techniques, AutoViz empowers users to generate informative and visually appealing visualizations with minimal effort, allowing them to focus more on deriving insights from their data. Whether you're a seasoned data professional or a beginner in the field, AutoViz provides a user-friendly and efficient tool for unlocking the full potential of your data.
