@@ -21,9 +21,27 @@ Once installed, you can import the AutoViz class and create visualizations with 
     AV.AutoViz(filename="", depVar="survived", dfte=titanic, header=0, verbose=0,
                lowess=False, chart_format='pdf', max_rows_analyzed=150000, max_cols_analyzed=30)
 
-In this example, the AutoViz method automatically analyzes the input DataFrame (df) and generates a suite of visualizations based on the data characteristics. The resulting charts are saved in the specified format (SVG by default) and can be further customized or exported for presentation or further analysis.
+When using AutoViz for automatic data visualization, there are several parameter that you can customize to control its behavior according to your dataset and analysis requirements. Here's a breakdown of the parameters used in the `AutoViz` method:
 
+1. **filename**: Path to the file containing the dataset you want to visualize.
 
+2. **sep**: Delimiter used in the dataset file (e.g., "," for comma-separated).
+
+3. **depVar**: Target variable (dependent variable) in your dataset for which visualizations will be generated.
+
+4. **dfte**: DataFrame containing your dataset. Pass your dataset directly using this parameter.
+
+5. **header**: Indicates whether your dataset has a header row. Set to `0` if the first row contains column names, and `None` if there's no header.
+
+6. **verbose**: Controls the verbosity of the AutoViz process. Set to `1` for verbose output and `0` for silent mode.
+
+7. **lowess**: Boolean flag specifying whether to include a Lowess smoother in scatter plots.
+
+8. **chart_format**: Determines the format of the generated charts (e.g., "svg", "png", "jpg").
+
+9. **max_rows_analyzed**: Limits the maximum number of rows analyzed from the dataset.
+
+10. **max_cols_analyzed**: Limits the maximum number of columns analyzed from the dataset.
 
 ![](https://github.com/bintangrizqikhairullah/Automated_Exploratory_Data_Analysis_in_Python_using_AutoViz/blob/main/artikel_gif.gif)
 
