@@ -1,18 +1,10 @@
 # Exploring Data Visualization Made Effortless with AutoViz in Python
 
-Data exploration plays a pivotal role in data science, from exploring data, we can found uncovering insights, identifying patterns, and communicating findings effectively, not to mention, data explortaion also plays a crucial part in data modelling for we have to learn the data's characteristic first in order to clean it for modelling and choose the best model. However, crafting meaningful visualizations often demands a significant amount of time and expertise in selecting appropriate chart types, formatting, and interpreting results. To streamline this process, Data Science Dream Team at Analytics Vidhya developed an innovative tool called AutoViz.
+Exploring data is fundamental in data science; it uncovers insights, reveals patterns, and facilitates effective communication of findings. Moreover, data exploration is integral to data modeling, as understanding the data's characteristics is essential for cleaning and selecting the optimal model. However, creating meaningful visualizations typically requires considerable time and expertise in selecting suitable chart types, formatting, and interpreting results. To simplify this process, the Data Science Dream Team at Analytics Vidhya has devised an innovative tool named AutoViz.
 
 ## What is AutoViz?
 
-AutoViz is a library in Python that used to perform automated visualization, autoviz can simplify the data exploration process by automatically generating a wide range of visualizations with minimal input from the user. Developed by the Data Science Dream Team at Analytics Vidhya, AutoViz leverages the power of automation and machine learning to create insightful charts effortlessly.
-
-## Features and Capabilities
-
-One of the standout features of AutoViz is its ability to handle a diverse range of data types, including numerical, categorical, and textual data. Whether you're working with structured data from a CSV file or unstructured data from a database, AutoViz can seamlessly process and visualize the information.
-
-The library supports various chart types, including histograms, bar charts, scatter plots, line charts, and more. AutoViz intelligently selects the most appropriate visualization techniques based on the data characteristics, ensuring that the resulting plots are both informative and visually appealing.
-
-AutoViz also provides options for customizing the visualizations, allowing users to fine-tune the appearance of the charts according to their preferences. From adjusting colors and labels to modifying axis scales and adding annotations, AutoViz offers a range of customization features to enhance the clarity and interpretability of the visualizations.
+AutoViz, a Python library, is crafted to automatically visualize datasets, streamlining the generation of visualizations for exploratory data analysis (EDA). By discerning suitable chart types according to the data's characteristics, AutoViz simplifies the EDA process. It accommodates an extensive array of data types, encompassing numerical, categorical, and textual data, thereby ensuring its versatility across diverse data analysis endeavors.
 
 ## How to Use AutoViz
 
@@ -40,4 +32,30 @@ In this example, the AutoViz method automatically analyzes the input DataFrame (
 
 ## Conclusion
 
-AutoViz offers a compelling solution for data analysts and data scientists seeking to expedite the process of data visualization and exploration. By leveraging automation and machine learning techniques, AutoViz empowers users to generate informative and visually appealing visualizations with minimal effort, allowing them to focus more on deriving insights from their data. Whether you're a seasoned data professional or a beginner in the field, AutoViz provides a user-friendly and efficient tool for unlocking the full potential of your data.
+## AutoViz: Advantages and Disadvantages
+
+### Advantages:
+
+- **Automation**: AutoViz automates the process of visualizing data, saving time and effort that would otherwise be spent manually selecting and creating visualizations.
+  
+- **Ease of Use**: It simplifies the process of data exploration and visualization by automatically selecting appropriate chart types based on the characteristics of the data, making it accessible to users with varying levels of expertise in data visualization.
+
+- **Versatility**: AutoViz supports a wide range of data types, including numerical, categorical, and textual data, making it suitable for various data analysis tasks.
+
+- **Time-saving**: By automating the visualization process, AutoViz helps users quickly explore and understand their data without the need for extensive manual intervention.
+
+- **Facilitates Communication**: AutoViz generates informative visualizations that can aid in communicating insights and findings effectively to stakeholders.
+
+### Disadvantages:
+
+- **Limited Customization**: While AutoViz offers some customization options, users may find it lacking compared to manually created visualizations, particularly if they require highly specialized or intricate visualizations.
+
+- **Over-reliance on Automation**: Relying solely on AutoViz for data visualization may limit users' understanding of the underlying data and the nuances of different visualization techniques.
+
+- **Performance Issues with Large Datasets**: AutoViz may face performance issues when dealing with very large datasets, as the automated process of selecting and generating visualizations could become computationally expensive.
+
+- **Dependency on Data Characteristics**: The effectiveness of AutoViz heavily relies on the characteristics of the input data. In some cases, the automated selection of chart types may not accurately represent the underlying patterns or relationships in the data.
+
+- **Learning Curve**: While AutoViz aims to simplify the data visualization process, users may still need to invest time in learning how to effectively use the tool and interpret its outputs.
+
+Overall, AutoViz can be a valuable tool for quickly generating exploratory visualizations and gaining insights from data, but it's important for users to be aware of its limitations and use it judiciously alongside other data visualization techniques.
