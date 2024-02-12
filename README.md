@@ -27,11 +27,6 @@ In this example, the AutoViz method automatically analyzes the input DataFrame (
 
 ![](https://github.com/bintangrizqikhairullah/Automated_Exploratory_Data_Analysis_in_Python_using_AutoViz/blob/main/artikel_gif.gif)
 
-
-
-
-## Conclusion
-
 ## AutoViz: Advantages and Disadvantages
 
 ### Advantages:
