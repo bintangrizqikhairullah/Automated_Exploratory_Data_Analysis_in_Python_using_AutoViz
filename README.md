@@ -1,10 +1,10 @@
 # Exploring Data Visualization Made Effortless with AutoViz in Python
 
-In the realm of data analysis and exploration, visualization plays a pivotal role in uncovering insights, identifying patterns, and communicating findings effectively. However, crafting meaningful visualizations often demands a significant amount of time and expertise in selecting appropriate chart types, formatting, and interpreting results. To streamline this process, Python enthusiasts are turning to an innovative tool called AutoViz.
+Data exploration plays a pivotal role in data science, from exploring data, we can found uncovering insights, identifying patterns, and communicating findings effectively, not to mention, data explortaion also plays a crucial part in data modelling for we have to learn the data's characteristic first in order to clean it for modelling and choose the best model. However, crafting meaningful visualizations often demands a significant amount of time and expertise in selecting appropriate chart types, formatting, and interpreting results. To streamline this process, Data Science Dream Team at Analytics Vidhya developed an innovative tool called AutoViz.
 
 ## What is AutoViz?
 
-AutoViz is an automated visualization library for Python that aims to simplify the data exploration process by automatically generating a wide range of visualizations with minimal input from the user. Developed by the Data Science Dream Team at Analytics Vidhya, AutoViz leverages the power of automation and machine learning to create insightful charts effortlessly.
+AutoViz is a library in Python that used to perform automated visualization, autoviz can simplify the data exploration process by automatically generating a wide range of visualizations with minimal input from the user. Developed by the Data Science Dream Team at Analytics Vidhya, AutoViz leverages the power of automation and machine learning to create insightful charts effortlessly.
 
 ## Features and Capabilities
 
@@ -17,19 +17,20 @@ AutoViz also provides options for customizing the visualizations, allowing users
 ## How to Use AutoViz
 
 Using AutoViz is remarkably simple, making it accessible to both novice and experienced Python users. To get started, you first need to install the AutoViz library using pip:
+
     pip install autoviz
 
 Once installed, you can import the AutoViz class and create visualizations with just a few lines of code. Here's a basic example demonstrating how to use AutoViz to visualize a pandas DataFrame:
 
     import pandas as pd
     from autoviz.AutoViz_Class import AutoViz_Class
-    df = pd.read_csv('sample_data.csv')
+    titanic=sns.load_dataset("titanic")
     AV = AutoViz_Class()
-    AV.AutoViz(filename="", df=df, depVar="", dfte=None, header=0, verbose=0,
-               lowess=False, chart_format='svg', max_rows_analyzed=150000, max_cols_analyzed=30)
+    AV.AutoViz(filename="", depVar="survived", dfte=titanic, header=0, verbose=0,
+               lowess=False, chart_format='pdf', max_rows_analyzed=150000, max_cols_analyzed=30)
 
 In this example, the AutoViz method automatically analyzes the input DataFrame (df) and generates a suite of visualizations based on the data characteristics. The resulting charts are saved in the specified format (SVG by default) and can be further customized or exported for presentation or further analysis.
 
-Conclusion
+## Conclusion
 
 AutoViz offers a compelling solution for data analysts and data scientists seeking to expedite the process of data visualization and exploration. By leveraging automation and machine learning techniques, AutoViz empowers users to generate informative and visually appealing visualizations with minimal effort, allowing them to focus more on deriving insights from their data. Whether you're a seasoned data professional or a beginner in the field, AutoViz provides a user-friendly and efficient tool for unlocking the full potential of your data.
