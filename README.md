@@ -33,7 +33,7 @@ In this example, the AutoViz method automatically analyzes the input DataFrame (
 
 
 
-![Uploading artikel - Made with Clipchamp.gif…]()
+![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
 
 
 
