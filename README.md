@@ -33,7 +33,7 @@ In this example, the AutoViz method automatically analyzes the input DataFrame (
 
 
 
-![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
+![](https://github.com/bintangrizqikhairullah/Automated_Exploratory_Data_Analysis_in_Python_using_AutoViz/blob/main/artikel_gif.gif)
 
 
 
