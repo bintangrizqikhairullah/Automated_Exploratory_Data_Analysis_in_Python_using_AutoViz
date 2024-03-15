@@ -1,5 +1,7 @@
 # Exploring Data Visualization Made Effortless with AutoViz in Python
 
+![Uploading image.png…]()
+
 Exploring data is fundamental in data science; it uncovers insights, reveals patterns, and facilitates effective communication of findings. Moreover, data exploration is integral to data modeling, as understanding the data's characteristics is essential for cleaning and selecting the optimal model. However, creating meaningful visualizations typically requires considerable time and expertise in selecting suitable chart types, formatting, and interpreting results. To simplify this process, the Data Science Dream Team at Analytics Vidhya has devised an innovative tool named AutoViz.
 
 ## What is AutoViz?
